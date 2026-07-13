@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshna Khadka | Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img src="profile.jpeg" alt="My Photo">
+        <h1>Joshna Khadka</h1>
+        <nav>
+          <button onclick="showAbout()">About Me</button>
+          <button onclick="showSkills()">Skills</button>
+          <button onclick="showContacts()">Contacts</button>
+        </nav>
+    </header>
+    <section id="Aboutme" style="display: none;">
+        <h2>Lets started</h2>
+        <p>
+            Hello! I am <strong>Joshna Khadka</strong> a BCA student at Mechi Multiple Campus 
+            with a passion for web development and software engineering. I enjoy learning new
+            technologies, solving problems through coding, and creating responsive, user-friendly
+            websites. I have experience with HTML, CSS, JavaScript,Java, PHP, and MySQL, and I 
+            am always eager to improve my skills through continuous learning and hands-on projects.
+        </p>
+    <a href="joshnacv.pdf" target="_blank" class="cv-btn">View CV</a>
+    </section>
+    <section id="Skills" style="display: none;">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>PHP</li>
+        </ul>
+    </section>
+    <section id="Contacts" style="display: none;">
+        <h2>Contact Me</h2>
+        <p>
+            Interested in working together,I'm always open to discusing new projects,internship
+            ,freelance work, or simply connecting with people who share a passion for technology.
+        </p>
+        <p><strong>Email:</strong>khadkajoshna2@gmail.com</p>
+        <p><strong>Phone:</strong>9817594024</p>
+        <form>
+            <input type="text" placeholder="Your Name"><br><br>
+            <input type="email" placeholder="Your Email"><br><br>
+            <textarea placeholder="Your Message"></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
